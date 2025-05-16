@@ -29,3 +29,6 @@ E:\Visual Studio Projects\Screenslimer\bin\Release\net9.0-windows\Newtonsoft.Jso
 E:\Visual Studio Projects\Screenslimer\bin\Release\net9.0-windows\SpotifyAPI.Web.dll
 E:\Visual Studio Projects\Screenslimer\obj\Release\net9.0-windows\Screenslimer.csproj.AssemblyReference.cache
 E:\Visual Studio Projects\Screenslimer\obj\Release\net9.0-windows\Screensl.CAAF03E1.Up2Date
+E:\Visual Studio Projects\Screenslimer\obj\Release\net9.0-windows\ConfigWindow.g.cs
+E:\Visual Studio Projects\Screenslimer\bin\Release\net9.0-windows\Screenslimer.dll.config
+E:\Visual Studio Projects\Screenslimer\obj\Release\net9.0-windows\ConfigWindow.baml

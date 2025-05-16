@@ -1,0 +1,34 @@
+﻿<Window x:Class="Screenslimer.ConfigWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Screenslimer"
+        mc:Ignorable="d"
+        Title="Screenslimer Configuration" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10" Orientation="Vertical">
+            <!-- Slideshow Interval -->
+            <StackPanel Margin="0,2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock Text="Slideshow Interval" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="SlideshowIntervalTextBox"  Text="DefaultValue" HorizontalAlignment="Left" Margin="20,0" VerticalAlignment="Top" Width="120"/>
+            </StackPanel>
+            <!-- Background Mode -->
+            <StackPanel Margin="0,2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock Text="Background Mode" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <ComboBox x:Name="BackgroundModeComboBox" Width="120" Margin="20,0">
+                    <ComboBoxItem Content="Auto" />
+                    <ComboBoxItem Content="White" />
+                    <ComboBoxItem Content="Black" />
+                </ComboBox>
+            </StackPanel>
+            <!-- Buffer Size -->
+            <StackPanel Margin="0,2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock Text="Audio Buffer Size (KB)" Width="120" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="BufferSizeTextBox"  Text="DefaultValue" HorizontalAlignment="Left" Margin="20,0" VerticalAlignment="Top" Width="120"/>
+            </StackPanel>
+            <!-- Save Settings -->
+            <Button Content="Save Settings" Width="120" Margin="5,20,0,0" Click="Save_Click" HorizontalAlignment="Left"/>
+        </StackPanel>
+    </Grid>
+</Window>

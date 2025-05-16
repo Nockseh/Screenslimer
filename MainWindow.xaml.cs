@@ -1,47 +1,28 @@
-﻿using Microsoft.Win32;
-using NAudio.Wave;
-using SpotifyAPI.Web;
+﻿using NAudio.Wave;
+using Screenslimer.Properties;
 using SpotifyAPI.Web;
 using System.Diagnostics;
 using System.IO;
-using System.IO.Pipelines;
-using System.Net;
 using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Reflection;
-using System.Runtime;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.Xml;
-using System.Text;
-using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
+using System.Windows.Forms;
 using System.Windows.Media;
-using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading;
-using System.Xml.Linq;
 
 namespace Screenslimer
 {
     public partial class MainWindow : Window {
 
         // Configuration //
-        private static TimeSpan SLIDESHOW_INTERVAL = TimeSpan.FromSeconds(3); //120 sec
         private static BackgroundMode BACKGROUND_MODE = BackgroundMode.Auto;
         private static int BUFFER_SIZE_KILOBYTES = 256;
         // Custom Data Types //
         private enum BackgroundMode {
+            Auto,
             White,
-            Black,
-            Auto
+            Black
         }
         private struct Slimage {
             public string Artist;
@@ -58,20 +39,21 @@ namespace Screenslimer
         private static Random RNG = new Random();
         private LibrespotService librespotService;
         private SpotifyService spotifyService;
+        private ConfigWindow? configWindow = null;
         // Methods & Services //
         private void SwapImage(object sender, EventArgs e) {
             int slideshowIndex = RNG.Next(slimages.Count);
             ArtistLabel.Text = slimages[slideshowIndex].Artist;
             SlideshowImage.Source = new BitmapImage(new Uri(slimages[slideshowIndex].Path, UriKind.Absolute));
-            switch (BACKGROUND_MODE) {
+            switch ((BackgroundMode)Settings.Default.BackgroundMode) {
+                case BackgroundMode.Auto:
+                    BackgroundRectangle.Fill = new SolidColorBrush(GetBorderColor());
+                    break;
                 case BackgroundMode.White:
                     BackgroundRectangle.Fill = new SolidColorBrush(Colors.White);
                     break;
                 case BackgroundMode.Black:
                     BackgroundRectangle.Fill = new SolidColorBrush(Colors.Black);
-                    break;
-                case BackgroundMode.Auto:
-                    BackgroundRectangle.Fill = new SolidColorBrush(GetBorderColor());
                     break;
             }
         }
@@ -111,7 +93,7 @@ namespace Screenslimer
         private async Task<BitmapImage> GetAlbumArtAsync(string albumId) {
             string url = $"https://i.scdn.co/image/{albumId}";
             var image = new BitmapImage();
-            using (var stream = await new HttpClient().GetStreamAsync(url)) { //what?
+            using (var stream = await new HttpClient().GetStreamAsync(url)) {
                 image.BeginInit();
                 image.CacheOption = BitmapCacheOption.OnLoad;
                 image.StreamSource = stream;
@@ -150,7 +132,7 @@ namespace Screenslimer
                     Arguments = "--name Screenslimer --backend pipe",
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
-                    UseShellExecute = false, //what?
+                    UseShellExecute = false,
                     CreateNoWindow = true
                 };
                 librespotProcess.ErrorDataReceived += OnOutputReceived;
@@ -245,7 +227,7 @@ namespace Screenslimer
 
             // start slideshow
             slideshowTimer = new DispatcherTimer();
-            slideshowTimer.Interval = SLIDESHOW_INTERVAL;
+            slideshowTimer.Interval = TimeSpan.FromSeconds(Settings.Default.SlideshowInterval);
             slideshowTimer.Tick += new EventHandler(SwapImage);
             slideshowTimer.Start();
 
@@ -263,5 +245,17 @@ namespace Screenslimer
             librespotService?.Stop();
             base.OnClosed(e);
         }
+
+        private void Window_KeyDown(object sender, System.Windows.Input.KeyEventArgs e) {
+            if (e.Key == System.Windows.Input.Key.F1) {
+                if (configWindow == null) {
+                    configWindow = new ConfigWindow();
+                    configWindow.Owner = this;
+                    configWindow.ShowDialog();
+                    configWindow = null;
+                }
+            }
+        }
+
     }
 }

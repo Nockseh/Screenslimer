@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Screenslimer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="360" Width="640">
+        Title="MainWindow" Height="360" Width="640"
+        Focusable="True"
+        KeyDown="Window_KeyDown">
     <Grid>
 
         <!-- Background -->
