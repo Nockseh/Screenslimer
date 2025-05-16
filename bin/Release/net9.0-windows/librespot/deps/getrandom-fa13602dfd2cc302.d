@@ -1,0 +1,11 @@
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\libgetrandom-fa13602dfd2cc302.rmeta: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\util.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error_impls.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\windows.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\libgetrandom-fa13602dfd2cc302.rlib: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\util.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error_impls.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\windows.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\getrandom-fa13602dfd2cc302.d: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\util.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error_impls.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\windows.rs
+
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\lib.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\util.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\error_impls.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.2.15\src\windows.rs:

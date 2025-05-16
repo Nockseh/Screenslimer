@@ -1,0 +1,31 @@
+// @generated
+
+pub mod authentication;
+pub mod canvaz;
+pub mod canvaz_meta;
+pub mod client_info;
+pub mod clienttoken_http;
+pub mod code;
+pub mod connect;
+pub mod connectivity;
+pub mod credentials;
+pub mod devices;
+pub mod entity_extension_data;
+pub mod explicit_content_pubsub;
+pub mod extended_metadata;
+pub mod extension_kind;
+pub mod hashcash;
+pub mod identifiers;
+pub mod keyexchange;
+pub mod login5;
+pub mod mercury;
+pub mod metadata;
+pub mod player;
+pub mod playlist4_external;
+pub mod playlist_annotate3;
+pub mod playlist_permission;
+pub mod pubsub;
+pub mod spirc;
+pub mod storage_resolve;
+pub mod user_attributes;
+pub mod user_info;

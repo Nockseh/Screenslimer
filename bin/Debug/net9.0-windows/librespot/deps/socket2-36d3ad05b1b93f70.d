@@ -1,0 +1,11 @@
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\libsocket2-36d3ad05b1b93f70.rmeta: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockaddr.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\socket.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockref.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sys\windows.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\libsocket2-36d3ad05b1b93f70.rlib: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockaddr.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\socket.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockref.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sys\windows.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\socket2-36d3ad05b1b93f70.d: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockaddr.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\socket.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockref.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sys\windows.rs
+
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\lib.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockaddr.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\socket.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sockref.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\socket2-0.5.7\src\sys\windows.rs:

@@ -1,0 +1,10 @@
+cargo:rustc-env=VERGEN_BUILD_DATE=2025-05-16
+cargo:rustc-env=VERGEN_GIT_COMMIT_DATE=VERGEN_IDEMPOTENT_OUTPUT
+cargo:rustc-env=VERGEN_GIT_SHA=VERGEN_IDEMPOTENT_OUTPUT
+cargo:warning=not within a suitable 'git' worktree!
+cargo:warning=VERGEN_GIT_COMMIT_DATE set to default
+cargo:warning=VERGEN_GIT_SHA set to default
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-env-changed=VERGEN_IDEMPOTENT
+cargo:rerun-if-env-changed=SOURCE_DATE_EPOCH
+cargo:rustc-env=LIBRESPOT_BUILD_ID=0p7e1ETh

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\build\aws-lc-sys-3a085d0b758c4502\out\build\CMakeFiles\7604856d491c771b90c2670de69ba99b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C035F3F6-A39A-380E-88EE-A461DE035CB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

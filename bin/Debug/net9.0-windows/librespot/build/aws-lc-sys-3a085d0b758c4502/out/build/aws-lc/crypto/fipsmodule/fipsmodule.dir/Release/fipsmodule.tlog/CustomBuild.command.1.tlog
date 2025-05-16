@@ -1,0 +1,10 @@
+^C:\USERS\NOCKSEH\.CARGO\REGISTRY\SRC\INDEX.CRATES.IO-1949CF8C6B5B557F\AWS-LC-SYS-0.22.0\AWS-LC\CRYPTO\FIPSMODULE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Nockseh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.22.0 -BC:/Users/Nockseh/Desktop/librespot-0.6.0/target/release/build/aws-lc-sys-3a085d0b758c4502/out/build --check-stamp-file C:/Users/Nockseh/Desktop/librespot-0.6.0/target/release/build/aws-lc-sys-3a085d0b758c4502/out/build/aws-lc/crypto/fipsmodule/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

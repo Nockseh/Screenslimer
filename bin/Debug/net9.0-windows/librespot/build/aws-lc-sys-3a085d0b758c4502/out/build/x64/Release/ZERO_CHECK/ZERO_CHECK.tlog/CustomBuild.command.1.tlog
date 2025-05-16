@@ -1,0 +1,10 @@
+^C:\USERS\NOCKSEH\DESKTOP\LIBRESPOT-0.6.0\TARGET\RELEASE\BUILD\AWS-LC-SYS-3A085D0B758C4502\OUT\BUILD\CMAKEFILES\35ACE766ED783E227906A09744909A6C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Nockseh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.22.0 -BC:/Users/Nockseh/Desktop/librespot-0.6.0/target/release/build/aws-lc-sys-3a085d0b758c4502/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Nockseh/Desktop/librespot-0.6.0/target/release/build/aws-lc-sys-3a085d0b758c4502/out/build/AWS_LC_RUST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

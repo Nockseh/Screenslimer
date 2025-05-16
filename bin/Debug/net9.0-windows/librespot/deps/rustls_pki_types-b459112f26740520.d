@@ -1,0 +1,10 @@
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\librustls_pki_types-b459112f26740520.rmeta: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\base64.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\server_name.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\pem.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\librustls_pki_types-b459112f26740520.rlib: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\base64.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\server_name.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\pem.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\rustls_pki_types-b459112f26740520.d: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\base64.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\server_name.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\pem.rs
+
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\lib.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\base64.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\server_name.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rustls-pki-types-1.10.0\src\pem.rs:

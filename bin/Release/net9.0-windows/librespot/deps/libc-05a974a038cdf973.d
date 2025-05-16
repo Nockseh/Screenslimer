@@ -1,0 +1,11 @@
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\liblibc-05a974a038cdf973.rmeta: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\macros.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\fixed_width_ints.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\mod.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\msvc\mod.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\liblibc-05a974a038cdf973.rlib: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\macros.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\fixed_width_ints.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\mod.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\msvc\mod.rs
+
+C:\Users\Nockseh\Desktop\librespot-0.6.0\target\release\deps\libc-05a974a038cdf973.d: C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\lib.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\macros.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\fixed_width_ints.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\mod.rs C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\msvc\mod.rs
+
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\lib.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\macros.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\fixed_width_ints.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\mod.rs:
+C:\Users\Nockseh\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.161\src\windows\msvc\mod.rs:
